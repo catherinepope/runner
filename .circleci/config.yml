@@ -9,5 +9,3 @@ jobs:
     resource_class: catherinepope/runner_docker
     steps:
       - run: echo "Hi I'm on Runners!"
-      
-      
