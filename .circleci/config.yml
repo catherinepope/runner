@@ -8,4 +8,4 @@ jobs:
     machine: true
     resource_class: catherinepope/ec2
     steps:
-      - run: echo "Hi I'm on an EC2 Runner!"
+      - run: echo "Hi I'm on an AWS EC2 Runner!"
