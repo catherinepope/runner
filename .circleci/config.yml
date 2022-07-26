@@ -6,6 +6,6 @@ workflows:
 jobs:
   runner-test:
     machine: true
-    resource_class: catherinepope/mini
+    resource_class: catherinepope/mac
     steps:
-      - run: echo "Hello. I'm on an MacMini Runner!"
+      - run: echo "Hello. I'm on an Mac Runner!"
