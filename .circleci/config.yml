@@ -6,6 +6,6 @@ workflows:
 jobs:
   runner-test:
     machine: true
-    resource_class: catherinepope/mac
+    resource_class: catherinepope/docker
     steps:
-      - run: echo "Hello. I'm (hopefully) on an Mac Runner! Fingers crossed."
+      - run: echo "Hi I'm on Runners!"
