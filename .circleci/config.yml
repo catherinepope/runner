@@ -8,4 +8,4 @@ jobs:
     machine: true
     resource_class: catherinepope/docker
     steps:
-      - run: echo "Hellooo, I'm running on Runners with Docker!"
+      - run: echo "Helloooo, I'm running on Runners with Docker!"
