@@ -8,4 +8,4 @@ jobs:
     machine: true
     resource_class: catherinepope/k8s
     steps:
-      - run: echo "Hellooooo, I'm running on Runners with Kubernetes!"
+      - run: echo "Helloooooo, I'm running on Runners with Kubernetes!"
