@@ -5,7 +5,7 @@ workflows:
       - runner-test
 jobs:
   runner-test:
-    machine: true
+    # machine: true
     resource_class: catherinepope/agent
     steps:
       - run: echo "Hellooooooo, I'm running on Runners with Container Agent!"
