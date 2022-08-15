@@ -5,6 +5,8 @@ workflows:
       - runner-test
 jobs:
   runner-test:
+    docker:
+      - image: cimg/base:2021.11
     resource_class: catherinepope/agent
     steps:
       - run: echo "Hellooooooo, I'm running on Runners with Container Agent!"
