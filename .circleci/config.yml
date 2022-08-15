@@ -6,6 +6,6 @@ workflows:
 jobs:
   runner-test:
     machine: true
-    resource_class: catherinepope/k8s
+    resource_class: catherinepope/agent
     steps:
-      - run: echo "Hellooooooo, I'm running on Runners with Kubernetes!"
+      - run: echo "Hellooooooo, I'm running on Runners with Container Agent!"
